@@ -33,7 +33,7 @@ app.listen(PORT, () => {
     console.log(`
 Deployment Successful!
 
- Malvin-Session-Server Running on http://localhost:` + PORT)
+ Ezio-Session-Server Running on http://localhost:` + PORT)
 })
 
 module.exports = app

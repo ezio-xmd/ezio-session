@@ -1,8 +1,8 @@
 {
-    "name": "Malvin Session Generator",
+    "name": "Ezio Session Generator",
     "description": "Web Session Generator",
     "logo": "https://i.imgur.com/teQzVR1.jpeg",
-    "repository": "https://github.com/XdKing2/malvin-pair",
+    "repository": "https://github.com/ezio-xmd/ezio-session",
     "keywords": ["MalvinTech","XdKing2"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],

@@ -1,16 +1,16 @@
 {
-  "description": "malvin-pair-session",
+  "description": "ezio-pair-session",
   "main": "./index.js",
   "type": "commonjs",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name malvin",
-    "stop": "pm2 stop malvin",
-    "restart": "pm2 restart malvin"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ezio",
+    "stop": "pm2 stop ezio",
+    "restart": "pm2 restart ezio"
   },
-  "author": "Malvin King",
+  "author": "Temp Ezio",
   "license": "GPL-3.0 license",
   "dependencies": {
     "awesome-phonenumber": "^2.64.0",

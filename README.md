@@ -1,4 +1,4 @@
-# Malvin-Session-Generator
+# Ezio-Session-Generator
 - Fork, Star and Edit as you wish
 - Deploy to your favourite hosting server eg Heroku or Render or self hosting
 - This is what I use in my **[Session Site](https://pairing.malvintech.web.id)** so don't ask for more...
@@ -67,7 +67,7 @@ const { loadSession } = require("./lib");
 // Other things....
 async function ConnectGiftedToWA() {
   await loadSession();
-console.log('⏱️ Conneting Malvin XD⏱️')
+console.log('⏱️ Conneting Ezio XD⏱️')
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
 var { version, isLatest } = await fetchLatestBaileysVersion()
 
@@ -88,19 +88,16 @@ const Gifted = GiftedConnect({
 <br/>WEB - PAIR CODE FOR BOTS WITH MALVIN & GIFTED-BAILEYS
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-   <a href="https://github.com/XdKing2">
+   <a>
     <img src="https://i.imgur.com/teQzVR1.jpeg" width="500">
      
 </a>
- <p align="center"><img src="https://profile-counter.glitch.me/{XdKing2}/count.svg" alt="Malvin:: Visitor's Count" /></p>
 
 </details>
 
 
-
-[`ℹ️Contact Owner`](https://wa.me/263780166288)
  <br>
-<a href='https://github.com/XdKing2/malvin-pair/fork' target="_blank">
+<a href='https://github.com/ezio-xmd/ezio-session/fork' target="_blank">
     <img alt='FORK REPO' src='https://img.shields.io/badge/-FORK REPO-black?style=for-the-badge&logo=github&logoColor=white'/>
 </a>
 
@@ -109,8 +106,7 @@ const Gifted = GiftedConnect({
 <details>
 <summary>DEPLOYMENT</summary>
  
-<a href='https://dashboard.heroku.com/new?template=https://github.com/malvin-pair' target="_blank"><img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
- <br>
+
 <a href='https://dashboard.render.com' target="_blank">
     <img alt='DEPLOY TO RENDER' src='https://img.shields.io/badge/-DEPLOY TO RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
 </a>
